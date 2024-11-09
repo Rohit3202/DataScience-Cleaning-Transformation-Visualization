@@ -9,4 +9,4 @@ print("First five rows of the dataset.") print(df.head() print("\nSummary of mis
 # 3. Remove duplicates  (if any)
 df = df.drop_duplicates()
 # Display cleaned data
-print("\nData after cleaning:") print(df.info())
+print("\nData after cleaning:") print(df.info()) 
